@@ -433,8 +433,15 @@ footer{
         margin: 0;
         margin-right: 8px;
     }
+    .QR-img{
+        width: 25%;
+        height: 25%;
+    }
     #QR-1{
         gap: 10px;
+    }
+    .QR-text{
+        width: 25%;
     }
     .content-end{
         padding-left: 10px;
