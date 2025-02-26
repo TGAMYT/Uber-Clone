@@ -309,9 +309,9 @@ input:focus{
 
 #QR-1, #QR-2{
     padding: 27px;
-    background-color: white;
     display: flex;
     gap: 20px;
+    background-color: white;
 }
 
 .arrow{
@@ -381,4 +381,72 @@ footer{
 .ext{
     padding: 30px;
     padding-left: 0;
+}
+
+@media (max-width : 900px) {
+    .img{
+        display: none;
+    }
+    
+    .a{
+        display: block;
+    }
+    .hero{
+        padding-left: 30px;
+    }
+
+    .hero > .text{
+        margin-left: 0px;
+    }
+    .inputs{
+        width: 75vw;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-1 button{
+        display: none;
+    }
+    .card{
+        width: 77%;
+    }   
+    .content-1{
+        flex-direction: column-reverse;
+    }
+
+    #content-2{
+        flex-direction: column;
+    }
+
+    .content-1-text, .content-2-text{
+        width: 80vw;
+        margin-left: 5px;
+        padding-left: 0;
+    }
+    .content-2-text img{
+        width: 65%;
+        height: auto;
+    }
+    .QR{
+        flex-direction: column;
+        width: 95vw;
+        margin: 0;
+        margin-right: 8px;
+    }
+    #QR-1{
+        gap: 10px;
+    }
+    .content-end{
+        padding-left: 10px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-1, .about-2, .about-3, .about-4{
+        margin: 10px;
+    }
+    .image{
+        width: 100%;
+        height: auto;
+    }
 }
